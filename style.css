@@ -1,0 +1,22 @@
+*{
+    font-family: poppins;
+    color: rgb(48, 45, 45);
+}
+.header{
+    background-color: antiquewhite;
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex: auto;
+}
+.nav{
+    flex: auto;    
+}
+a{
+    padding: 0px 8px;
+    text-decoration: none;
+}
