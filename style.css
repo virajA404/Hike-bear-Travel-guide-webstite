@@ -2,8 +2,10 @@
     font-family: poppins;
     color: rgb(48, 45, 45);
 }
+
+/* header starts here*/
 .header{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 10vh;
     width: 90vw;
     margin: auto;
@@ -17,6 +19,60 @@
     flex: auto;    
 }
 a{
-    padding: 0px 8px;
+    padding: 0 0.5rem;
     text-decoration: none;
 }
+.contact{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_contact{
+    background-color: antiquewhite;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+/* header ends here */
+
+/* hero content starts here */
+.main{
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    margin-top: -5vh;
+    /* flex-wrap: wrap; */
+}
+.content{
+    flex: auto; 
+    min-width: 25rem;
+}
+.hero{
+    flex: auto; 
+    min-width: 25rem;
+}
+.btn_cta{
+    background-color: #fde34c;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+.hero_image{
+    width: 80%;
+    
+    /* min-width: 25rem; */
+    border-radius: 2rem;
+    height: 80%;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1rem;
+}
+/* hero content ends here */
