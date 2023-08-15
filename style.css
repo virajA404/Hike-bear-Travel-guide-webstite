@@ -45,12 +45,15 @@ a{
     align-items: center;
     gap: 10vw;
     margin-top: -5vh;
+    /* flex-wrap: wrap; */
 }
 .content{
-    flex: 1; 
+    flex: auto; 
+    min-width: 25rem;
 }
 .hero{
-    flex: 3; 
+    flex: auto; 
+    min-width: 25rem;
 }
 .btn_cta{
     background-color: #fde34c;
@@ -60,8 +63,11 @@ a{
     padding: 0.5rem 1rem;
 }
 .hero_image{
-    width: 90vh;
-    /* height: 736px; */
+    width: 80%;
+    
+    /* min-width: 25rem; */
+    border-radius: 2rem;
+    height: 80%;
 }
 h1{
     font-size: 3rem;
