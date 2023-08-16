@@ -44,22 +44,21 @@ a{
     width: 90vw;
     margin: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
+    gap: 5vw;
     margin-top: 1vh;
     /* border: solid; */
 }
 .main img{
     max-width: 45%;
     height: auto;
-    /* border: solid; */
+    
     border-radius: 1rem;
 }
 .content{
-    width: 40%;
-    /* border: solid; */
+    width: 45%;
+    
 }
 
 .btn_cta{
@@ -67,7 +66,8 @@ a{
     border: solid;
     border-width: 1px;
     border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
 }
 
 h1{
