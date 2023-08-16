@@ -1,8 +1,9 @@
 *{
     font-family: poppins;
-    color: rgb(48, 45, 45);
+    color: #0B0808;
     padding: 0;
     margin: 0;
+    
 }
 
 /* header starts here*/
@@ -62,12 +63,12 @@ a{
 }
 
 .btn_cta{
-    background-color: #fde34c;
-    border: solid;
-    border-width: 1px;
+    background-color: #F97316;
     border-radius: 0.25rem;
     padding: 0.8rem 2rem;
     font-size: 1rem;
+    font-weight: 420;
+    border:none
 }
 
 h1{
