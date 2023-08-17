@@ -30,7 +30,7 @@ a{
     justify-content: flex-end;
 }
 .btn_contact{
-    background-color: antiquewhite;
+    background-color: #d8fce2;
     border: solid;
     border-width: 1px;
     border-radius: 0.25rem;
@@ -47,23 +47,26 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 2vw;
     margin-top: 1vh;
     /* border: solid; */
 }
 .main img{
-    max-width: 45%;
+    max-width: 40%;
+    width: 100%;
     height: auto;
     
     border-radius: 1rem;
 }
 .content{
     width: 45%;
-    
+}
+.content p{
+    width: 86%;
 }
 
 .btn_cta{
-    background-color: #F97316;
+    background-color: #5efd8b;
     border-radius: 0.25rem;
     padding: 0.8rem 2rem;
     font-size: 1rem;
