@@ -55,7 +55,6 @@ a{
 }
 .main img{
     max-width: 40%;
-    border-radius: 1rem;
 }
 .content{
     width: 45%;
@@ -86,9 +85,14 @@ p{
 @media screen and (max-width:991px){
   
     .main{
+        max-height: 80vh;
+        width: 90vw;
         flex-direction: column;
         text-align: center;
         margin-top: 4vh;
+    }
+    .main img{
+        max-width: 50%;
     }
     .content, .content p{
         width: 100%;
