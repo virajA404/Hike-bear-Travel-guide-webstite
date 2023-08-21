@@ -5,6 +5,9 @@
     margin: 0;
     
 }
+/********************************** Refer these websites******************************
+https://www.zriadventures.com/
+https://www.rapidadventures.lk/ */
 
 /* header starts here*/
 .header{
@@ -36,12 +39,11 @@ a{
     border-radius: 0.25rem;
     padding: 0.5rem 1rem;
 }
-
 /* header ends here */
 
 /* hero content starts here */
 .main{
-    height: 70vh;
+    max-height: 70vh;
     width: 90vw;
     margin: auto;
     display: flex;
@@ -53,9 +55,6 @@ a{
 }
 .main img{
     max-width: 40%;
-    width: 100%;
-    height: auto;
-    
     border-radius: 1rem;
 }
 .content{
@@ -83,3 +82,16 @@ p{
     font-size: 1rem;
 }
 /* hero content ends here */
+
+@media screen and (max-width:991px){
+  
+    .main{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 4vh;
+    }
+    .content, .content p{
+        width: 100%;
+        
+    }
+}
