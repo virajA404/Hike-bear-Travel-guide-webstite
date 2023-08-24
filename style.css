@@ -3,6 +3,7 @@
     color: #0B0808;
     padding: 0;
     margin: 0;
+    background-color: #fbfdfc;
     
 }
 /********************************** Refer these websites******************************
@@ -45,12 +46,14 @@ a{
 .main{
     max-height: 70vh;
     width: 90vw;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+   
+    margin:auto;
     gap: 2vw;
-    margin-top: 1vh;
+    margin-top: 4vh;
     /* border: solid; */
 }
 .main img{
