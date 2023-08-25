@@ -3,8 +3,7 @@
     color: #0B0808;
     padding: 0;
     margin: 0;
-    background-color: #fbfdfc;
-    
+    background-color: #fbfdfc;    
 }
 /********************************** Refer these websites******************************
 https://www.zriadventures.com/
@@ -12,7 +11,6 @@ https://www.rapidadventures.lk/ */
 
 /* header starts here*/
 .header{
-    /* background-color: antiquewhite; */
     height: 10vh;
     width: 90vw;
     margin: auto;
@@ -52,18 +50,25 @@ a{
     box-sizing: border-box;
    
     margin:auto;
-    gap: 2vw;
+    gap: 4vw;
     margin-top: 4vh;
     /* border: solid; */
 }
 .main img{
-    max-width: 40%;
+    width: 35%;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 130%;
+}
+p{
+    padding: 1rem 0;
+    font-size: 1rem;
 }
 .content{
     width: 45%;
-}
-.content p{
-    width: 86%;
 }
 
 .btn_cta{
@@ -75,15 +80,14 @@ a{
     border:none
 }
 
-h1{
-    font-size: 3rem;
-    line-height: 130%;
-}
-p{
-    padding: 1rem 0;
-    font-size: 1rem;
-}
 /* hero content ends here */
+@media screen and (max-width:1181px){
+    h1{
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 120%;
+    }
+}
 
 @media screen and (max-width:991px){
   
@@ -95,10 +99,29 @@ p{
         margin-top: 4vh;
     }
     .main img{
-        max-width: 50%;
+        width: 45%;
     }
-    .content, .content p{
+    .content{
         width: 100%;
-        
     }
+    .content h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
 }
+
+
+
+/* @media (min-width: 768px) {
+    h1 {
+      font-size: calc(1rem + ((1vw - 7.68px) * 2.7778));
+      min-height: 0vw;
+    }
+  }
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 64px;
+    }
+  } */
