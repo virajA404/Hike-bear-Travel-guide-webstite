@@ -38,8 +38,10 @@ a{
     border-radius: 0.25rem;
     padding: 0.5rem 1rem;
 }
-.bi-list{
-    visibility: hidden;
+.material-symbols-outlined{
+    cursor: pointer;
+    display: none !important;
+    font-size: 2rem !important;
 }
 /* header ends here */
 
@@ -88,16 +90,16 @@ p{
 
 @media screen and (max-width: 600px) {
     .hero_image{
-       visibility: hidden;
+       display: none;
     }
 }
 
 @media screen and (max-width:768px){
     .nav, .btn_contact{
-        visibility: hidden;
+        display: none;
     }
-    .bi-list{
-        visibility: visible;
+    .material-symbols-outlined{
+        display:flex !important;
     }
 }
 
