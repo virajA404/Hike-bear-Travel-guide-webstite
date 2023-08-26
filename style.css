@@ -48,12 +48,11 @@ a{
 /* hero content starts here */
 .main{
     max-height: 70vh;
-    width: 90vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-   
     margin:auto;
     gap: 4vw;
     margin-top: 4vh;
