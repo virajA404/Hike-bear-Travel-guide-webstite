@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     background-color: #fbfdfc;    
+    list-style: none;
 }
 /********************************** Refer these websites******************************
 https://www.zriadventures.com/
@@ -17,6 +18,9 @@ https://www.rapidadventures.lk/ */
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.nav ul{
+    display: flex;  
 }
 a{
     padding: 0 0.5rem;
@@ -98,33 +102,35 @@ p{
         
     }
     .nav{
-        /* display: none; */
-        height: 0px;
+        height: 0;
         right: 0;
         left: 0;
         position: absolute;
-        /* padding: 32px; */
-        top:5.75rem;
+        top:5.25rem;
         width: 100%;
         position: fixed;
-        text-align: center;
-        /* background-color: #2f1ecf;       */
+        text-align: center;     
         transition: 0.5s;  
         overflow: hidden;
     }
     .nav.active{
         min-height: 100%;
     }
-    .nav a {
+    .nav ul {
         padding: 1rem;
         display: flex;
         flex-direction: column;
+        background-color: none;
         transition: 0.5s; 
         font-size: 2rem;
+        opacity: 0;
+    }
+    .nav.active ul{
+        opacity: 1;
     }
     .btn_contact{
         display: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin: 1rem;
     }
     .material-symbols-outlined{
